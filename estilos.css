@@ -1,0 +1,38 @@
+body{
+    background-color:limegreen;
+    color: black;
+    font-family: 'Onest', sans-serif;
+}
+
+/* Asi se ponen los comentarios en CSS*/
+
+h1, p{
+    color:black
+}
+
+.img1{
+    width: 300px;
+    height: 200px;
+    border-style:groove;
+    border-color:palevioletred;
+    border-width: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.img2{
+    width: 500px;
+    height: 250px;
+    border-style:groove;
+    border-color:palevioletred;
+    border-width: 5px;
+}
+
+footer{
+    background-color:deeppink;
+}
+
+small, a{
+    color: aliceblue;
+    padding-bottom: 100px;
+}

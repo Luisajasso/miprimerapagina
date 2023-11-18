@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--Asi se pone un comentario-->
+
+<head>
+    <title>Página de Tortugas</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   <h1>Página de Tortugas</h1>
+   <h3>Imágenes de Tortugas</h3>
+
+   <!--Insertar imagen desde la web-->
+   <img class="img1" src="https://media.meer.com/attachments/a59b45e046c6440ef763fdfc09bbf84e46067aba/store/fill/1230/692/754fe5c68dc402dff00cbc4940c119ebc700e46127d61419d5ddf6657b58/Tortuga-marina-atravesando-el-oceano.jpg">
+     <br>
+   <!--Insertar imagen desde mi compu-->
+   <img class="img2" src="imagenes/Tortuga.jpg">
+
+   <!--Enlaces externos-->
+   <p>Si quieres conocer más acerca de las tortugas,<a href="https://www.nationalgeographic.com.es/animales/tortugas"> da click en el siguiente enlace: </a>.</p>
+
+   <h3>Listas de Tortugas</h3>
+   <p>3 Cosas que las Tortugas <strong> Aman</strong></p>
+
+   <!--Listas Ordenadas-->
+
+   <ol>
+        <li>Comer Frutas</li>
+        <li>Comer Verduras</li>
+        <li>Cualquier tipo de carne</li>
+        <li>Aman el Océano</li>
+   </ol>
+
+   <!--Lista Desordenada-->
+
+   <p>3 Cosas que las Tortugas <i>Odian</i></p>
+   <ul>
+        <li>Legumbres</li>
+        <li>Granos</li>
+        <li>Galletas</li>
+        <li>Maíz</li>
+   </ul>
+
+   <!--Formularios-->
+
+   <form>
+       <!--Formulario con botones de radio--> 
+       <p>¿Qué tipo de tortuga tienes?</p>
+       <label>
+            <input id="Tortuga de Tierra" type="radio" value="Tortuga de Tierra" name="Formulario-Tortugas" checked> Tortuga de Tierra
+       </label>
+            <br>
+       <label>
+            <input id="Tortuga Marina" type="radio" value="Tortuga Marina" name="Formulario-Tortugas"> Tortuga Marina
+       </label>
+
+       <!--Formulario con Casillas de Verficicación (checks)-->
+
+       <p>¿Qué tipo de especie es tu Tortuga Marina?</p>
+       <label>
+            <input id="Tortuga Verde" type="checkbox" value="Tortuga Verde" name="Especie" checked > Tortuga Verde
+       </label>
+            <br>
+       <label>
+            <input id="Tortuga Lora" type="checkbox" value="Tortuga Lora" name="Especie"> Tortuga Lora
+       </label>
+            <br>
+       <label>
+        <input id="Tortuga Golfina" type="checkbox" value="Tortuga Golfina" name="Especie"> Tortuga Golfina
+   </label>
+   </form>
+</body>
+
+<footer>
+    <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Technolochicas PRO.</a></small></p>
+</footer>
